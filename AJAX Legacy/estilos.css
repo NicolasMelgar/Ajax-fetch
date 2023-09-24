@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.titulo{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.contenedor__principal{
+    display: flex;
+}
+
+button{
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius:20px;
+    padding: .5rem;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(40, 32, 32);
+}
+
+#usersMios{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#usersMios div{
+    border: 2px solid rgb(114, 114, 196);
+    flex-basis: 30vw;
+}
+
+#usersMios div img{
+    margin: 1rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgb(91, 90, 90);
+}
+
+#usersMios div ul li{
+    list-style: none;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
